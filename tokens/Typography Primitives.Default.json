@@ -1,0 +1,478 @@
+{
+  "Family Sans": {
+    "$type": "string",
+    "$value": "Inter",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_FAMILY"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-family-sans)"
+        }
+      }
+    }
+  },
+  "Family Serif": {
+    "$type": "string",
+    "$value": "Noto Serif",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_FAMILY"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-family-serif)"
+        }
+      }
+    }
+  },
+  "Family Mono": {
+    "$type": "string",
+    "$value": "Roboto Mono",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_FAMILY"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-family-mono)"
+        }
+      }
+    }
+  },
+  "Scale 01": {
+    "$type": "number",
+    "$value": 12,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-01)"
+        }
+      }
+    }
+  },
+  "Scale 02": {
+    "$type": "number",
+    "$value": 14,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-02)"
+        }
+      }
+    }
+  },
+  "Scale 03": {
+    "$type": "number",
+    "$value": 16,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-03)"
+        }
+      }
+    }
+  },
+  "Scale 04": {
+    "$type": "number",
+    "$value": 20,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-04)"
+        }
+      }
+    }
+  },
+  "Scale 05": {
+    "$type": "number",
+    "$value": 24,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-05)"
+        }
+      }
+    }
+  },
+  "Scale 06": {
+    "$type": "number",
+    "$value": 32,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-06)"
+        }
+      }
+    }
+  },
+  "Scale 07": {
+    "$type": "number",
+    "$value": 40,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-07)"
+        }
+      }
+    }
+  },
+  "Scale 08": {
+    "$type": "number",
+    "$value": 48,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-08)"
+        }
+      }
+    }
+  },
+  "Scale 09": {
+    "$type": "number",
+    "$value": 64,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-09)"
+        }
+      }
+    }
+  },
+  "Scale 10": {
+    "$type": "number",
+    "$value": 72,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-scale-10)"
+        }
+      }
+    }
+  },
+  "Weight Thin": {
+    "$type": "number",
+    "$value": 100,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-thin)"
+        }
+      }
+    }
+  },
+  "Weight Thin Italic": {
+    "$type": "string",
+    "$value": "Thin Italic",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-thin-italic)"
+        }
+      }
+    }
+  },
+  "Weight Extra Light": {
+    "$type": "number",
+    "$value": 200,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extra-light)"
+        }
+      }
+    }
+  },
+  "Weight Extralight Italic": {
+    "$type": "string",
+    "$value": "Extra Light Italic",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extralight-italic)"
+        }
+      }
+    }
+  },
+  "Weight Light": {
+    "$type": "number",
+    "$value": 300,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-light)"
+        }
+      }
+    }
+  },
+  "Weight Light Italic": {
+    "$type": "string",
+    "$value": "Light Italic",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-light-italic)"
+        }
+      }
+    }
+  },
+  "Weight Regular": {
+    "$type": "number",
+    "$value": 400,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-regular)"
+        }
+      }
+    }
+  },
+  "Weight Regular Italic": {
+    "$type": "string",
+    "$value": "Italic",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-regular-italic)"
+        }
+      }
+    }
+  },
+  "Weight Medium": {
+    "$type": "number",
+    "$value": 500,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-medium)"
+        }
+      }
+    }
+  },
+  "Weight Medium Italic": {
+    "$type": "string",
+    "$value": "Medium Italic",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-medium-italic)"
+        }
+      }
+    }
+  },
+  "Weight Semibold": {
+    "$type": "number",
+    "$value": 600,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-semibold)"
+        }
+      }
+    }
+  },
+  "Weight Semibold Italic": {
+    "$type": "string",
+    "$value": "Semi Bold Italic",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-semibold-italic)"
+        }
+      }
+    }
+  },
+  "Weight Bold": {
+    "$type": "number",
+    "$value": 700,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-bold)"
+        }
+      }
+    }
+  },
+  "Weight Bold Italic": {
+    "$type": "string",
+    "$value": "Bold Italic",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-bold-italic)"
+        }
+      }
+    }
+  },
+  "Weight Extra Bold": {
+    "$type": "number",
+    "$value": 800,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extra-bold)"
+        }
+      }
+    }
+  },
+  "Weight Extra Bold Italic": {
+    "$type": "string",
+    "$value": "Extra Bold Italic",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-extra-bold-italic)"
+        }
+      }
+    }
+  },
+  "Weight Black": {
+    "$type": "number",
+    "$value": 900,
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-black)"
+        }
+      }
+    }
+  },
+  "Weight Black Italic": {
+    "$type": "string",
+    "$value": "Black Italic",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--sds-typography-weight-black-italic)"
+        }
+      }
+    }
+  }
+}
