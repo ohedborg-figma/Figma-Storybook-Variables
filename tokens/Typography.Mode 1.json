@@ -1,0 +1,576 @@
+{
+  "Title Hero": {
+    "Font Family": {
+      "$type": "string",
+      "$value": "{Family Sans}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-title-hero-font-family)"
+          }
+        }
+      }
+    },
+    "Size": {
+      "$type": "number",
+      "$value": "{Scale 10}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-title-hero-size)"
+          }
+        }
+      }
+    },
+    "Font Weight": {
+      "$type": "number",
+      "$value": "{Weight Bold}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-title-hero-font-weight)"
+          }
+        }
+      }
+    }
+  },
+  "Title Page": {
+    "Font Family": {
+      "$type": "string",
+      "$value": "{Family Sans}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-title-page-font-family)"
+          }
+        }
+      }
+    },
+    "Size Small": {
+      "$type": "number",
+      "$value": "{Scale 07}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-title-page-size-small)"
+          }
+        }
+      }
+    },
+    "Size Base": {
+      "$type": "number",
+      "$value": "{Scale 08}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-title-page-size-base)"
+          }
+        }
+      }
+    },
+    "Size Large": {
+      "$type": "number",
+      "$value": "{Scale 09}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-title-page-size-large)"
+          }
+        }
+      }
+    },
+    "Font Weight": {
+      "$type": "number",
+      "$value": "{Weight Bold}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-title-page-font-weight)"
+          }
+        }
+      }
+    }
+  },
+  "Subtitle": {
+    "Font Family": {
+      "$type": "string",
+      "$value": "{Family Sans}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subtitle-font-family)"
+          }
+        }
+      }
+    },
+    "Size Small": {
+      "$type": "number",
+      "$value": "{Scale 05}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subtitle-size-small)"
+          }
+        }
+      }
+    },
+    "Size Base": {
+      "$type": "number",
+      "$value": "{Scale 06}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subtitle-size-base)"
+          }
+        }
+      }
+    },
+    "Size Large": {
+      "$type": "number",
+      "$value": "{Scale 07}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subtitle-size-large)"
+          }
+        }
+      }
+    },
+    "Font Weight": {
+      "$type": "number",
+      "$value": "{Weight Regular}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subtitle-font-weight)"
+          }
+        }
+      }
+    }
+  },
+  "Heading": {
+    "Font Family": {
+      "$type": "string",
+      "$value": "{Family Sans}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-heading-font-family)"
+          }
+        }
+      }
+    },
+    "Size Small": {
+      "$type": "number",
+      "$value": "{Scale 04}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-heading-size-small)"
+          }
+        }
+      }
+    },
+    "Size Base": {
+      "$type": "number",
+      "$value": "{Scale 05}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-heading-size-base)"
+          }
+        }
+      }
+    },
+    "Size Large": {
+      "$type": "number",
+      "$value": "{Scale 06}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-heading-size-large)"
+          }
+        }
+      }
+    },
+    "Font Weight": {
+      "$type": "number",
+      "$value": "{Weight Semibold}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-heading-font-weight)"
+          }
+        }
+      }
+    }
+  },
+  "Subheading": {
+    "Font Family": {
+      "$type": "string",
+      "$value": "{Family Sans}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subheading-font-family)"
+          }
+        }
+      }
+    },
+    "Size Small": {
+      "$type": "number",
+      "$value": "{Scale 03}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subheading-size-small)"
+          }
+        }
+      }
+    },
+    "Size Medium": {
+      "$type": "number",
+      "$value": "{Scale 04}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subheading-size-medium)"
+          }
+        }
+      }
+    },
+    "Size Large": {
+      "$type": "number",
+      "$value": "{Scale 05}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subheading-size-large)"
+          }
+        }
+      }
+    },
+    "Font Weight": {
+      "$type": "number",
+      "$value": "{Weight Regular}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-subheading-font-weight)"
+          }
+        }
+      }
+    }
+  },
+  "Body": {
+    "Font Family": {
+      "$type": "string",
+      "$value": "{Family Sans}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-body-font-family)"
+          }
+        }
+      }
+    },
+    "Size Small": {
+      "$type": "number",
+      "$value": "{Scale 02}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-body-size-small)"
+          }
+        }
+      }
+    },
+    "Size Medium": {
+      "$type": "number",
+      "$value": "{Scale 03}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-body-size-medium)"
+          }
+        }
+      }
+    },
+    "Size Large": {
+      "$type": "number",
+      "$value": "{Scale 04}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-body-size-large)"
+          }
+        }
+      }
+    },
+    "Font Weight Regular": {
+      "$type": "number",
+      "$value": "{Weight Regular}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-body-font-weight-regular)"
+          }
+        }
+      }
+    },
+    "Font Weight Strong": {
+      "$type": "number",
+      "$value": "{Weight Semibold}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-body-font-weight-strong)"
+          }
+        }
+      }
+    },
+    "Font Style Italic": {
+      "$type": "string",
+      "$value": "{Weight Regular Italic}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-body-font-style-italic)"
+          }
+        }
+      }
+    }
+  },
+  "Code": {
+    "Font Family": {
+      "$type": "string",
+      "$value": "{Family Mono}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-code-font-family)"
+          }
+        }
+      }
+    },
+    "Size Small": {
+      "$type": "number",
+      "$value": "{Body.Size Small}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-code-size-small)"
+          }
+        }
+      }
+    },
+    "Size Base": {
+      "$type": "number",
+      "$value": "{Body.Size Medium}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-code-size-base)"
+          }
+        }
+      }
+    },
+    "Size Large": {
+      "$type": "number",
+      "$value": "{Body.Size Large}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-code-size-large)"
+          }
+        }
+      }
+    },
+    "Font Weight": {
+      "$type": "number",
+      "$value": "{Body.Font Weight Regular}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FONT_STYLE"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--sds-typography-code-font-weight)"
+          }
+        }
+      }
+    }
+  }
+}
