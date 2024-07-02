@@ -1,0 +1,180 @@
+/* Token grid styles */
+.token-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  background-color: #f7f9fc;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Tokens container styles */
+.tokens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+/* Individual token styles */
+.token {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #d0e8ff; /* Light blue color */
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 200px; /* Adjust width as needed */
+  box-shadow: 5px 5px 0px 0px #000000;
+  position: relative;
+  overflow: hidden; /* Ensure content stays within the box */
+}
+
+/* Token hover effect */
+.token:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0px 0px #000000;
+}
+
+/* Token swatch styles */
+.token-swatch {
+  width: 180px;
+  height: 90px;
+  margin-bottom: 10px;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+/* Token name and value styles */
+.token-name {
+  font-weight: 700;
+  font-size: 16px; /* Adjust font size to fit within the box */
+  color: #000000;
+  text-align: center;
+  margin-bottom: 5px;
+  word-wrap: break-word; /* Ensure long text wraps */
+  overflow: hidden; /* Ensure long text stays within the box */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Adjusting the token name when necessary */
+.token-name.long {
+  font-size: 14px; /* Smaller font size for longer names */
+}
+
+/* Token value styles */
+.token-value {
+  font-size: 14px; /* Adjust font size */
+  color: #000000;
+  text-align: center;
+}
+
+/* Overlay styles */
+.overlay {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  color: #333;
+  pointer-events: none;
+  max-width: 300px; /* Adjust max-width as needed */
+}
+
+/* Highlight effect */
+.highlight {
+  border: 2px solid #ffcc00;
+  box-shadow: 0 0 10px #ffcc00; /* Add glow effect */
+}
+
+/* Section title styles */
+.section-title {
+  font-size: 1.5em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Details section styles */
+.details {
+  text-align: left;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #333;
+  max-width: 300px; /* Adjust max-width as needed */
+}
+
+.details h3, .details h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.details p {
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.used-by, .aliases {
+  margin-top: 10px;
+}
+
+.used-by ul, .aliases p {
+  margin: 0;
+}
+
+.used-by ul {
+  list-style: none;
+  padding: 0;
+}
+
+.used-by li {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+/* Reference overlay styles */
+.reference-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Add background blur */
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.reference-view {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  max-width: 800px; /* Adjust max-width as needed */
+  width: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+.reference-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}

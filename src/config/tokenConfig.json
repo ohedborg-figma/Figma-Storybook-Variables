@@ -1,0 +1,23 @@
+{
+  "colorPrimitives": [
+    "Color Primitives.Value.json"
+  ],
+  "colorSemantics": [
+    "Color.SDS Dark.json",
+    "Color.SDS Light.json"
+  ],
+  "typographyPrimitives": [
+    "Typography Primitives.Default.json"
+  ],
+  "typographySemantics": [
+    "Typography.Mode 1.json"
+  ],
+  "responsive": [
+    "Responsive.Desktop.json",
+    "Responsive.Mobile.json",
+    "Responsive.Tablet.json"
+  ],
+  "size": [
+    "Size.Default.json"
+  ]
+}
